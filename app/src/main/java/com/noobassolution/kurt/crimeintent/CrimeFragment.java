@@ -14,7 +14,7 @@ import android.widget.EditText;
 
 import java.util.UUID;
 
-public class CrimeFragment extends Fragment{
+public class CrimeFragment extends android.support.v4.app.Fragment {
     public static final String EXTRA_CRIME_ID = "com.noobassolution.kurt.crimeintent.crime_id";
 
     private Crime mCrime;
